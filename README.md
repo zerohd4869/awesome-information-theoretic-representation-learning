@@ -1,7 +1,7 @@
 # Awesome-information-theoretic-representation-learning
 A curated paper list for information-theoretic representation learning.
 
-All papers are selected and sorted by topic/year/importance. Please send a pull request if you would like to add any paper.
+All papers are selected and sorted by topic/year. Please send a pull request if you would like to add any paper.
 
 
 
@@ -11,9 +11,14 @@ All papers are selected and sorted by topic/year/importance. Please send a pull 
 - Information theory and statistical mechanics.
   *Edwin T. Jaynes.* `Physical review, 1957`  [[paper]](https://journals.aps.org/pr/abstract/10.1103/PhysRev.106.620)
 - Axiomatic derivation of the principle of maximum entropy and the principle of minimum cross-entropy.
-  *JE Shore, RW Johnson.* `IEEE Transactions on information theory, 1980` [[paper]](https://ieeexplore.ieee.org/abstract/document/1056144/)
+  *JE Shore, RW Johnson.* `IEEE Trans. Inf. Theory, 1980` [[paper]](https://ieeexplore.ieee.org/abstract/document/1056144/)
 - On the rationale of maximum-entropy methods.
-  *Edwin T. Jaynes.* `Proceedings of the IEEE, 1982` [[paper]](https://ieeexplore.ieee.org/abstract/document/1456693)    
+  *Edwin T. Jaynes.* `Proceedings of the IEEE, 1982` [[paper]](https://ieeexplore.ieee.org/abstract/document/1456693)
+- Pac-bayes analysis of maximum entropy classification.
+  *John Shawe-Taylor, David R. Hardoon.* `AISTATS, 2009` [[paper]](https://proceedings.mlr.press/v5/shawe-taylor09a.html)
+- Maximum Entropy Discrimination Markov Networks.
+  *Jun Zhu, Eric P. Xing.* `J. Mach. Learn. Res., 2009` [[paper]](https://dl.acm.org/doi/10.5555/1577069.1755871)
+J Shawe-Taylor, D Hardoon - Artificial intelligence and statistics, 2009
 - The role of entropy and reconstruction in multi-view self-supervised learning.
  *Borja Rodrı́guez Gálvez, Arno Blaas, Pau Rodriguez, Adam Golinski, Xavier Suau, Jason Ramapuram, Dan Busbridge, Luca Zappella*  `ICML, 2023` [[paper]](https://proceedings.mlr.press/v202/rodri-guez-galvez23a.html)
 
@@ -64,8 +69,16 @@ All papers are selected and sorted by topic/year/importance. Please send a pull 
 ## Learning Principle and Optimization
 
 ### Entropy-based Representation Learning
+- Deterministic annealing for clustering, compression, classification, regression, and related optimization problems.
+  *K Rose.* `Proceedings of the IEEE, 1998` [[paper]](https://ieeexplore.ieee.org/abstract/document/726788) 
+- Unsupervised Learning of Finite Mixture Models.
+  *Mário A. T. Figueiredo, Anil K. Jain.* `IEEE Trans. Pattern Anal. Mach. Intell., 2002` [[paper]](https://ieeexplore.ieee.org/document/990138/)  
 - Semi-supervised learning by entropy minimization.
-  *Yves Grandvalet, Yoshua Bengio.* `NeurIPS, 2004` [[paper]](https://proceedings.neurips.cc/paper/2004/hash/96f2b50b5d3613adf9c27049b2a888c7-Abstract.html)  
+  *Yves Grandvalet, Yoshua Bengio.* `NeurIPS, 2004` [[paper]](https://proceedings.neurips.cc/paper/2004/hash/96f2b50b5d3613adf9c27049b2a888c7-Abstract.html)
+- Nonparametric Supervised Learning by Linear Interpolation with Maximum Entropy.
+  *Maya R. Gupta, Robert M. Gray, Richard A. Olshen.* `IEEE Trans. Pattern Anal. Mach. Intell., 2006` [[paper]](https://doi.org/10.1109/TPAMI.2006.101)
+- Similarity-based Classification: Concepts and Algorithms.
+  *Yihua Chen, Eric K. Garcia, Maya R. Gupta, Ali Rahimi, Luca Cazzanti.* `J. Mach. Learn. Res., 2009` [[paper]](https://dl.acm.org/doi/10.5555/1577069.1577096)
 - Regularizing neural networks by penalizing confident output distributions.
   *Gabriel Pereyra, George Tucker, Jan Chorowski, Lukasz Kaiser, and Geoffrey E. Hinton.* `ICLR Workshop, 2017` [[paper]](https://openreview.net/forum?id=HyhbYrGYe)  
 - Compressing images by encoding their latent representations with relative entropy coding.
@@ -79,7 +92,7 @@ All papers are selected and sorted by topic/year/importance. Please send a pull 
 - Alignment by maximization of mutual information.
   *Paul A. Viola, William M. Wells III* `ICCV, 1995` [[paper]](https://ieeexplore.ieee.org/document/466930/)
 - Feature extraction by non-parametric mutual information maximization.
-  *Kari Torkkola.* ` J. Mach. Learn. Res., 2003` [[paper]](https://jmlr.org/papers/v3/torkkola03a.html)
+  *Kari Torkkola.* `J. Mach. Learn. Res., 2003` [[paper]](https://jmlr.org/papers/v3/torkkola03a.html)
 - An information-theoretic framework for fast and robust unsupervised learning via neural population infomax.
   *Wentao Huang, Kechen Zhang:.* `ICLR, 2017` [[paper]](https://openreview.net/forum?id=SkYbF1slg)
 - Representation learning with contrastive predictive coding.
@@ -94,8 +107,11 @@ All papers are selected and sorted by topic/year/importance. Please send a pull 
   *Sicheng Zhu, Xiao Zhang, David Evans.* `ICML, 2020` [[paper]](https://proceedings.mlr.press/v119/zhu20e.html)
 - Learning disentangled representations via mutual information estimation.
   *Sanchez, Eduardo Hugo, Mathieu Serrurier, and Mathias Ortner.* `ECCV, 2020` [[paper]](https://doi.org/10.1007/978-3-030-58542-6_13)
+- Rethinking Minimal Sufficient Representation in Contrastive Learning.
+  *Haoqing Wang, Xun Guo, Zhi-Hong Deng, Yan Lu.* `CVPR, 2022` [[paper]](https://doi.org/10.1109/CVPR52688.2022.01557)
 - Representation Learning with Conditional Information Flow Maximization.
   *Dou Hu, Lingwei Wei, Wei Zhou, Songlin Hu.* `ACL, 2024` [[paper]](https://arxiv.org/abs/2406.05510)
+
 
 ### IB-based Representation Learning
 - The deterministic information bottleneck.
@@ -132,11 +148,98 @@ All papers are selected and sorted by topic/year/importance. Please send a pull 
   *Dou Hu, Lingwei Wei, Yaxin Liu, Wei Zhou, and Songlin Hu.* `AAAI, 2024` [[paper]](https://ojs.aaai.org/index.php/AAAI/article/view/29142)
 
 ### MI Estimation
-TODO
+- Estimation of the information by an adaptive partitioning of the observation space.
+  *Georges A. Darbellay, Igor Vajda.* `IEEE Trans. Inf. Theory, 1999` [[paper]](https://doi.org/10.1109/18.761290)
+- Estimation of entropy and mutual information.
+  *Liam Paninski.* `Neural Comput., 2003` [[paper]](https://doi.org/10.1162/089976603321780272)
+- Estimating mutual information.
+  *Alexander Kraskov, Harald Stögbauer, and Peter Grassberger.* `Physical review, 2004` [[paper]](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.69.066138)
+- Estimating divergence functionals and the likelihood ratio by penalized convex risk minimization.
+  *XuanLong Nguyen, Martin J. Wainwright, Michael I. Jordan.* `NeurIPS, 2007` [[paper]](https://proceedings.neurips.cc/paper/2007/hash/72da7fd6d1302c0a159f6436d01e9eb0-Abstract.html)
+- Density functional estimators with k-nearest neighbor bandwidths.
+  *Weihao Gao, Sewoong Oh, Pramod Viswanath.* `ISIT, 2017` [[paper]](https://doi.org/10.1109/ISIT.2017.8006749)
+- f-GAN: Training Generative Neural Samplers using Variational Divergence Minimization.
+  *Sebastian Nowozin, Botond Cseke, Ryota Tomioka.* `NeurIPS, 2017` [[paper]](https://proceedings.neurips.cc/paper/2016/hash/cedebb6e872f539bef8c3f919874e9d7-Abstract.html)
+- Estimating mutual information for discrete-continuous mixtures.
+  *Weihao Gao, Sreeram Kannan, Sewoong Oh, Pramod Viswanath.* `NeurIPS, 2017` [[paper]](https://proceedings.neurips.cc/paper/2017/hash/ef72d53990bc4805684c9b61fa64a102-Abstract.html)
+- Mutual information neural estimation.
+  *Mohamed Ishmael Belghazi, Aristide Baratin, Sai Rajeswar, Sherjil Ozair, Yoshua Bengio, R. Devon Hjelm, and Aaron C. Courville.* `ICML, 2018` [[paper]](https://proceedings.mlr.press/v80/belghazi18a.html)
+- Representation learning with contrastive predictive coding.
+  *Aäron van den Oord, Yazhe Li, Oriol Vinyals.* `CoRR, 2018` [[paper]](https://arxiv.org/abs/1807.03748)
+- On variational bounds of mutual information.
+  *Ben Poole, Sherjil Ozair, Aäron van den Oord, Alexander A. Alemi, George Tucker.* `ICML, 2019` [[paper]](https://proceedings.mlr.press/v97/poole19a.html)
+- Club: A contrastive log-ratio upper bound of mutual information.
+  *Pengyu Cheng, Weituo Hao, Shuyang Dai, Jiachang Liu, Zhe Gan, Lawrence Carin.* `ICML, 2020` [[paper]](https://proceedings.mlr.press/v119/cheng20b.html)
+- Conditional mutual information estimation for mixed, discrete and continuous data.
+  *Octavio César Mesner, Cosma Rohilla Shalizi.* `IEEE Trans. Inf. Theory, 2021` [[paper]](https://ieeexplore.ieee.org/document/9201164/)
+- Beyond normal: On the evaluation of mutual information estimators.
+  *Pawel Czyz, Frederic Grabowski, Julia E. Vogt, Niko Beerenwinkel, Alexander Marx* `NeurIPS, 2023` [[paper]](https://proceedings.neurips.cc//paper_files/paper/2023/hash/36b80eae70ff629d667f210e13497edf-Abstract-Conference.html)
+
+
 ## Applications
-TODO
+### Entropy-based Methods
+- Maximum-Entropy Fine Grained Classification.
+  *Abhimanyu Dubey, Otkrist Gupta, Ramesh Raskar, Nikhil Naik.* `NeurIPS, 2018`
+- Maximum Entropy-Regularized Multi-Goal Reinforcement Learning.
+  *Rui Zhao, Xudong Sun, Volker Tresp.* `ICML, 2019` 
+- Mitigating Information Leakage in Image Representations: A Maximum Entropy Approach.
+  *Proteek Chandan Roy, Vishnu Naresh Boddeti.* `CVPR, 2019`
+- Semi-Supervised Domain Adaptation via Minimax Entropy.
+  *Kuniaki Saito, Donghyun Kim, Stan Sclaroff, Trevor Darrell, Kate Saenko.* `ICCV, 2019`
+- Improving Neural Response Diversity with Frequency-Aware Cross-Entropy Loss.
+  *Shaojie Jiang, Pengjie Ren, Christof Monz, Maarten de Rijke.* `WWW, 2019`
+- Distributional Policy Evaluation: a Maximum Entropy approach to Representation Learning.
+  *Riccardo Zamboni, Alberto Maria Metelli, Marcello Restelli.* `NeurIPS, 2023`
+- MaxEnt Loss: Constrained Maximum Entropy for Calibration under Out-of-Distribution Shift.
+  *Dexter Neo, Stefan Winkler, Tsuhan Chen.* `AAAI, 2024`
 
+### Infomax-based Methods
+- Infogan: Interpretable representation learning by information maximizing generative adversarial nets.
+  *Xi Chen, Yan Duan, Rein Houthooft, John Schulman, Ilya Sutskever, and Pieter Abbeel.* `NeurIPS, 2016`
+- Deep graph infomax.
+  *Petar Velickovic, William Fedus, William L. Hamilton, Pietro Liò, Yoshua Bengio, R. Devon Hjelm.* `ICLR, 2019`
+- InfoGraph: Unsupervised and Semi-supervised Graph-Level Representation Learning via Mutual Information Maximization.
+  *Fan-Yun Sun, Jordan Hoffmann, Vikas Verma, Jian Tang.* `ICLR, 2020`
+- An Unsupervised Sentence Embedding Method by Mutual Information Maximization.
+  *Yan Zhang, Ruidan He, Zuozhu Liu, Kwan Hui Lim, Lidong Bing.* `EMNLP, 2020`
+- Graph Representation Learning via Graphical Mutual Information Maximization.
+  *Zhen Peng, Wenbing Huang, Minnan Luo, Qinghua Zheng, Yu Rong, Tingyang Xu, Junzhou Huang.* `WWW, 2020`
+- Info3D: Representation Learning on 3D Objects Using Mutual Information Maximization and Contrastive Learning.
+  *Aditya Sanghi.* `ECCV, 2020`
+- Improving Multimodal Fusion with Hierarchical Mutual Information Maximization for Multimodal Sentiment Analysis.
+  *Wei Han, Hui Chen, Soujanya Poria.* `EMNLP, 2021`
+- Clustering by Maximizing Mutual Information Across Views.
+  *Kien Do, Truyen Tran, Svetha Venkatesh.* `ICCV, 2021`
+- Online Continual Learning through Mutual Information Maximization.
+  *Yiduo Guo, Bing Liu, Dongyan Zhao.* `ICML, 2022`
+- InfoDiffusion: Representation Learning Using Information Maximizing Diffusion Models.
+  *Yingheng Wang, Yair Schiff, Aaron Gokaslan, Weishen Pan, Fei Wang, Christopher De Sa, Volodymyr Kuleshov.* `ICML, 2023`
 
+### IB-based Methods
+- Compressing Neural Networks using the Variational Information Bottleneck.
+  *Bin Dai, Chen Zhu, Baining Guo, David P. Wipf.* `ICML, 2018`
+- InfoBot: Transfer and Exploration via the Information Bottleneck.
+  *Anirudh Goyal, Riashat Islam, Daniel Strouse, Zafarali Ahmed, Hugo Larochelle, Matthew M. Botvinick, Yoshua Bengio, Sergey Levine* `ICLR, 2019`
+- Specializing Word Embeddings (for Parsing) by Information Bottleneck.
+  *Xiang Lisa Li, Jason Eisner.* `EMNLP/IJCNLP, 2019`
+- Restricting the Flow: Information Bottlenecks for Attribution.
+  *Karl Schulz, Leon Sixt, Federico Tombari, Tim Landgraf.* `ICLR, 2020`
+- Graph Information Bottleneck.
+  *Tailin Wu, Hongyu Ren, Pan Li, Jure Leskovec.* `NeurIPS, 2020`
+- Multi-Task Variational Information Bottleneck.
+  *Weizhu Qian, Bowei Chen, Franck Gechter* `CoRR, 2020`
+- DICE: Diversity in Deep Ensembles via Conditional Redundancy Adversarial Estimation.
+  *Alexandre Ramé, Matthieu Cord.* `ICLR, 2021`
+- Invariance Principle Meets Information Bottleneck for Out-of-Distribution Generalization.
+  *Kartik Ahuja, Ethan Caballero, Dinghuai Zhang, Jean-Christophe Gagnon-Audet, Yoshua Bengio, Ioannis Mitliagkas, Irina Rish.* `NeurIPS, 2021`
+- Variational information bottleneck for effective low-resource fine-tuning.
+  *Rabeeh Karimi Mahabadi, Yonatan Belinkov, and James Henderson.* `ICLR, 2021`
+- Infobert: Improving robustness of language models from an information theoretic perspective.
+  *Boxin Wang, Shuohang Wang, Yu Cheng, Zhe Gan, Ruoxi Jia, Bo Li, Jingjing Liu.* `ICLR, 2021`
+- Learning unbiased representations via mutual information backpropagation.
+  *Ruggero Ragonesi, Riccardo Volpi, Jacopo Cavazza, and Vittorio Murino.* `CVPR Workshop, 2021`
+- IB-GAN: Disentangled Representation Learning with Information Bottleneck Generative Adversarial Networks.
+  *Insu Jeon, Wonkwang Lee, Myeongjang Pyeon, Gunhee Kim.* `AAAI, 2021`
 
 
 
