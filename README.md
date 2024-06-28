@@ -220,6 +220,11 @@ All papers are selected and sorted by topic/year. Please send a pull request if 
   *Yiduo Guo, Bing Liu, Dongyan Zhao.* `ICML, 2022`
 - InfoDiffusion: Representation Learning Using Information Maximizing Diffusion Models.
   *Yingheng Wang, Yair Schiff, Aaron Gokaslan, Weishen Pan, Fei Wang, Christopher De Sa, Volodymyr Kuleshov.* `ICML, 2023`
+- DualCL: Principled Supervised Contrastive Learning as Mutual Information Maximization for Text Classification.
+  *Junfan Chen, Richong Zhang, Yaowei Zheng, Qianben Chen, Chunming Hu, Yongyi Mao.* `WWW, 2024`
+- Learning to Maximize Mutual Information for Chain-of-Thought Distillation.
+  *Xin Chen, Hanxian Huang, Yanjun Gao, Yi Wang, Jishen Zhao, Ke Ding.* `Findings of ACL, 2024`
+
 
 ### IB-based Methods
 - Compressing Neural Networks using the Variational Information Bottleneck.
