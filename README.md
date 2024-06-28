@@ -16,9 +16,6 @@ All papers are selected and sorted by topic/year. Please send a pull request if 
   *Edwin T. Jaynes.* `Proceedings of the IEEE, 1982` [[paper]](https://ieeexplore.ieee.org/abstract/document/1456693)
 - Pac-bayes analysis of maximum entropy classification.
   *John Shawe-Taylor, David R. Hardoon.* `AISTATS, 2009` [[paper]](https://proceedings.mlr.press/v5/shawe-taylor09a.html)
-- Maximum Entropy Discrimination Markov Networks.
-  *Jun Zhu, Eric P. Xing.* `J. Mach. Learn. Res., 2009` [[paper]](https://dl.acm.org/doi/10.5555/1577069.1755871)
-J Shawe-Taylor, D Hardoon - Artificial intelligence and statistics, 2009
 - The role of entropy and reconstruction in multi-view self-supervised learning.
  *Borja Rodrı́guez Gálvez, Arno Blaas, Pau Rodriguez, Adam Golinski, Xavier Suau, Jason Ramapuram, Dan Busbridge, Luca Zappella*  `ICML, 2023` [[paper]](https://proceedings.mlr.press/v202/rodri-guez-galvez23a.html)
 
@@ -54,12 +51,13 @@ J Shawe-Taylor, D Hardoon - Artificial intelligence and statistics, 2009
 - How does information bottleneck help deep learning? 
  *Kenji Kawaguchi, Zhun Deng, Xu Ji, and Jiaoyang Huang.*  `ICML, 2023` [[paper]](https://proceedings.mlr.press/v202/kawaguchi23a.html)
 
-
 ### Others
 - Information-theoretic analysis of generalization capability of learning algorithms.
  *Aolin Xu and Maxim Raginsky.*  `NeurIPS, 2017` [[paper]](https://proceedings.neurips.cc/paper/2017/hash/ad71c82b22f4f65b9398f76d8be4c615-Abstract.html)
 - Emergence of invariance and disentanglement in deep representations. 
  *Alessandro Achille, Stefano Soatto.*  `ITA, 2018` [[paper]](https://ieeexplore.ieee.org/document/8503149/)
+- Understanding the Limitations of Variational Mutual Information Estimators.
+ *Jiaming Song, Stefano Ermon.*  `ICLR, 2020` [[paper]](https://openreview.net/forum?id=B1x62TNtDS)
 - Reasoning about generalization via conditional mutual information.
  *Thomas Steinke and Lydia Zakynthinou.*  `COLT, 2020` [[paper]](https://proceedings.mlr.press/v125/steinke20a.html)
 - A Unifying Mutual Information View of Metric Learning: Cross-Entropy vs. Pairwise Losses.
@@ -79,6 +77,8 @@ J Shawe-Taylor, D Hardoon - Artificial intelligence and statistics, 2009
   *Maya R. Gupta, Robert M. Gray, Richard A. Olshen.* `IEEE Trans. Pattern Anal. Mach. Intell., 2006` [[paper]](https://doi.org/10.1109/TPAMI.2006.101)
 - Similarity-based Classification: Concepts and Algorithms.
   *Yihua Chen, Eric K. Garcia, Maya R. Gupta, Ali Rahimi, Luca Cazzanti.* `J. Mach. Learn. Res., 2009` [[paper]](https://dl.acm.org/doi/10.5555/1577069.1577096)
+- Maximum Entropy Discrimination Markov Networks.
+  *Jun Zhu, Eric P. Xing.* `J. Mach. Learn. Res., 2009` [[paper]](https://dl.acm.org/doi/10.5555/1577069.1755871)
 - Regularizing neural networks by penalizing confident output distributions.
   *Gabriel Pereyra, George Tucker, Jan Chorowski, Lukasz Kaiser, and Geoffrey E. Hinton.* `ICLR Workshop, 2017` [[paper]](https://openreview.net/forum?id=HyhbYrGYe)  
 - Compressing images by encoding their latent representations with relative entropy coding.
@@ -188,6 +188,8 @@ J Shawe-Taylor, D Hardoon - Artificial intelligence and statistics, 2009
   *Kuniaki Saito, Donghyun Kim, Stan Sclaroff, Trevor Darrell, Kate Saenko.* `ICCV, 2019`
 - Improving Neural Response Diversity with Frequency-Aware Cross-Entropy Loss.
   *Shaojie Jiang, Pengjie Ren, Christof Monz, Maarten de Rijke.* `WWW, 2019`
+- Generalized Entropy Regularization or: There's Nothing Special about Label Smoothing.
+  *Clara Meister, Elizabeth Salesky, Ryan Cotterell.* `ACL, 2020`
 - Distributional Policy Evaluation: a Maximum Entropy approach to Representation Learning.
   *Riccardo Zamboni, Alberto Maria Metelli, Marcello Restelli.* `NeurIPS, 2023`
 - MaxEnt Loss: Constrained Maximum Entropy for Calibration under Out-of-Distribution Shift.
@@ -198,6 +200,8 @@ J Shawe-Taylor, D Hardoon - Artificial intelligence and statistics, 2009
   *Xi Chen, Yan Duan, Rein Houthooft, John Schulman, Ilya Sutskever, and Pieter Abbeel.* `NeurIPS, 2016`
 - Deep graph infomax.
   *Petar Velickovic, William Fedus, William L. Hamilton, Pietro Liò, Yoshua Bengio, R. Devon Hjelm.* `ICLR, 2019`
+- Jointly Learning Semantic Parser and Natural Language Generator via Dual Information Maximization.
+  *Hai Ye, Wenjie Li, Lu Wang.* `ACL, 2019`
 - InfoGraph: Unsupervised and Semi-supervised Graph-Level Representation Learning via Mutual Information Maximization.
   *Fan-Yun Sun, Jordan Hoffmann, Vikas Verma, Jian Tang.* `ICLR, 2020`
 - An Unsupervised Sentence Embedding Method by Mutual Information Maximization.
@@ -206,6 +210,8 @@ J Shawe-Taylor, D Hardoon - Artificial intelligence and statistics, 2009
   *Zhen Peng, Wenbing Huang, Minnan Luo, Qinghua Zheng, Yu Rong, Tingyang Xu, Junzhou Huang.* `WWW, 2020`
 - Info3D: Representation Learning on 3D Objects Using Mutual Information Maximization and Contrastive Learning.
   *Aditya Sanghi.* `ECCV, 2020`
+- A Mutual Information Maximization Approach for the Spurious Solution Problem in Weakly Supervised Question Answering.
+  *Zhihong Shao, Lifeng Shang, Qun Liu, Minlie Huang.* `ACL/IJCNLP, 2021`
 - Improving Multimodal Fusion with Hierarchical Mutual Information Maximization for Multimodal Sentiment Analysis.
   *Wei Han, Hui Chen, Soujanya Poria.* `EMNLP, 2021`
 - Clustering by Maximizing Mutual Information Across Views.
@@ -222,6 +228,8 @@ J Shawe-Taylor, D Hardoon - Artificial intelligence and statistics, 2009
   *Anirudh Goyal, Riashat Islam, Daniel Strouse, Zafarali Ahmed, Hugo Larochelle, Matthew M. Botvinick, Yoshua Bengio, Sergey Levine* `ICLR, 2019`
 - Specializing Word Embeddings (for Parsing) by Information Bottleneck.
   *Xiang Lisa Li, Jason Eisner.* `EMNLP/IJCNLP, 2019`
+- BottleSum: Unsupervised and Self-supervised Sentence Summarization using the Information Bottleneck Principle.
+  *Peter West, Ari Holtzman, Jan Buys, Yejin Choi.* `EMNLP/IJCNLP, 2019`
 - Restricting the Flow: Information Bottlenecks for Attribution.
   *Karl Schulz, Leon Sixt, Federico Tombari, Tim Landgraf.* `ICLR, 2020`
 - Graph Information Bottleneck.
@@ -240,6 +248,9 @@ J Shawe-Taylor, D Hardoon - Artificial intelligence and statistics, 2009
   *Ruggero Ragonesi, Riccardo Volpi, Jacopo Cavazza, and Vittorio Murino.* `CVPR Workshop, 2021`
 - IB-GAN: Disentangled Representation Learning with Information Bottleneck Generative Adversarial Networks.
   *Insu Jeon, Wonkwang Lee, Myeongjang Pyeon, Gunhee Kim.* `AAAI, 2021`
-
+- Invariant Information Bottleneck for Domain Generalization.
+  *Bo Li, Yifei Shen, Yezhen Wang, Wenzhen Zhu, Colorado Reed, Dongsheng Li, Kurt Keutzer, Han Zhao.* `AAAI, 2022`
+- Self-Supervised Information Bottleneck for Deep Multi-View Subspace Clustering.
+  *Shiye Wang, Changsheng Li, Yanming Li, Ye Yuan, Guoren Wang.* `IEEE Trans. Image Process., 2023`
 
 
